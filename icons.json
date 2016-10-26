@@ -1,0 +1,13 @@
+{
+  "config": {
+    "path": "../fonts"
+  },
+  "sets": [
+    {
+      "title": "Eventob",
+      "name": "eventob",
+      "src": "/Users/psoares/WIP/eventob/2016/Icons/SVG/=ALL=",
+      "prefix": "evi"
+    }
+  ]
+}
