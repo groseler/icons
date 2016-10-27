@@ -1,0 +1,200 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css");
+@import url("https://cdn.rawgit.com/psoaresbj/fonts/master/css/lato.css");
+
+
+*{
+  margin: 0;
+  padding: 0;
+  color: #404040;
+  box-sizing: border-box;
+  font-family: 'lato-regular';
+}
+input, select{
+  background-color: #f4f4f4;
+  border: 0;
+  box-shadow: 0;
+  outline: 0;
+  height: 50px;
+  width: 100%;
+  font-size: 20px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  font-family: 'lato-thin';
+}
+input{
+  background-color: transparent;
+  border-bottom: 1px solid #cccccc;
+  margin-top: 50px;
+  font-size: 40px;
+  line-height: 50px;
+}
+.wrapper{
+  max-width: 960px;
+  position: relative;
+  display: block;
+  margin: auto;
+}
+.header{
+  padding-top: 20px;
+  position: relative;
+}
+.header > h1{
+  display: inline-block;
+  clear: left;
+}
+.header > a{
+  margin-left: 10px;
+  display: inline-block;
+  opacity: 1;
+  cursor: pointer;
+  width: 30px;
+  text-align: center;
+  height: 30px;
+  position: relative;
+  margin: auto;
+  position: relative;
+}
+.header > a > i{
+  color: inherit;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+  display: block!important;
+}
+.top > span{
+  margin-right: 20px;
+}
+.top > span > em{
+  font-family: 'lato-bold';
+  font-size: 10px;
+  color: #50A2E5;
+}
+.top > span > b{
+  font-family: 'lato-black';
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #aaa;
+}
+.popover{
+  visibility: hidden;
+  opacity: 0;
+  transition: all ease .3s;
+  position: absolute;
+  top: 80px;
+  right: 10px;
+  box-shadow: 0px 0px 50px #aaa;
+}
+.popover.active{
+  visibility: visible;
+  opacity: 1;
+  top: 25px;
+}
+.popover > .iconsList{
+
+}
+.popover > .iconsList > .iconsListItem{
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  text-align: right;
+  padding: 0 20px;
+  font-family: 'lato-bold';
+  color: #aaa;
+}
+.popover > .iconsList > .iconsListItem.active,
+.popover > .iconsList > .iconsListItem:hover{
+  background: #f4f4f4;
+}
+.popover > .iconsList > .iconsListItem.active{
+  cursor: default;
+  color: #50A2E5;
+}
+.popover > .iconsList > .iconsListItem > span{
+  color: inherit;
+}
+
+.content{
+  padding: 0 20px;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+ul:before,
+ul:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+ul:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+ul {
+    *zoom: 1;
+}
+h1{
+  font-size: 70px;
+  font-family: 'lato-hairline';
+  font-weight: normal;
+  color: #50A2E5;
+}
+li{
+  display: block;
+  float: left;
+  width: 20%;
+  height: 150px;
+  vertical-align: top;
+  text-align: center;
+  padding: 0 10px;
+  position: relative;
+  border: 1px dashed #ddd;
+  display: table;
+  overflow: hidden;
+}
+li:hover > label{
+  opacity: 1;
+  background-color: rgba(64, 64, 64, .05);
+}
+i{
+  font-size: 32px;
+  height: 100%;
+  display: table-cell!important;
+}
+label{
+  display: table;
+  font-size: 11px;
+  font-weight: normal;
+  background-color: transparent;
+  line-height: 20px;
+  cursor: text;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  white-space: nowrap;
+  left: 0;
+  right: 0;
+  font-family: 'lato-regular';
+  padding: 15px;
+  width: 100%;
+  height: 100%;
+  opacity: .5;
+}
+label > span{
+  color: #404040;
+  display: table-cell;
+  vertical-align: bottom;
+}
+h6{
+  opacity: .5;
+  margin: 20px 0;
+}

@@ -1,0 +1,97 @@
+@font-face {
+	font-family: "psoares";
+	src: url("../fonts/psoares/psoares.eot");
+  src: url("../fonts/psoares/psoares.eot#iefix") format("embedded-opentype"),
+       url("../fonts/psoares/psoares.ttf") format("truetype"),
+       url("../fonts/psoares/psoares.woff") format("woff"),
+       url("../fonts/psoares/psoares.svg#psoares") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+i.psi {
+	display: inline-block;
+	font-family: "psoares"!important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	vertical-align: middle;
+	margin-top: -2px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.psi-arrow-down:before {
+	content: "\E001";
+}
+
+.psi-arrow-left:before {
+	content: "\E002";
+}
+
+.psi-arrow-right:before {
+	content: "\E003";
+}
+
+.psi-arrow-top:before {
+	content: "\E004";
+}
+
+.psi-code:before {
+	content: "\E005";
+}
+
+.psi-design:before {
+	content: "\E006";
+}
+
+.psi-down:before {
+	content: "\E007";
+}
+
+.psi-grid:before {
+	content: "\E008";
+}
+
+.psi-left:before {
+	content: "\E009";
+}
+
+.psi-link:before {
+	content: "\E00A";
+}
+
+.psi-psoares:before {
+	content: "\E00B";
+}
+
+.psi-push-bottom:before {
+	content: "\E00C";
+}
+
+.psi-push-left:before {
+	content: "\E00D";
+}
+
+.psi-push-right:before {
+	content: "\E00E";
+}
+
+.psi-push-top:before {
+	content: "\E00F";
+}
+
+.psi-right:before {
+	content: "\E010";
+}
+
+.psi-up:before {
+	content: "\E011";
+}
+
+.psi-ux:before {
+	content: "\E012";
+}

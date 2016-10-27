@@ -1,0 +1,48 @@
+<!doctype html>
+<html ng-app="app" ng-controller="IconsCtrl as icons">
+  <head>
+    <title>Icons - PSoares</title>
+    <link ng-if="icons.dataLoaded" rel="stylesheet" type="text/css" ng-href="../css/{{icons.selected.name}}.css">
+    <link rel="stylesheet" type="text/css" ng-href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" ng-href="style.css">
+  </head>
+  <body>
+    <div class="wrapper" ng-if="icons.dataLoaded">
+      <div class="content">
+        <div class="header">
+          <div class="top">
+            <span><b>font prefix: </b><em ng-bind="icons.selected.prefix"></em></span>
+            <span><b>font name: </b><em ng-bind="icons.selected.name"></em></span>
+            <span><b>font src (local): </b><em ng-bind="icons.selected.src"></em></span>
+          </div>
+          <h1 ng-bind="icons.selected.title"></h1>
+          <a ng-click="icons.popover = true">
+            <i class="fa fa-caret-down"></i>
+            <div class="popover" ng-class="{'active': icons.popover}" off-click="icons.popover = false" off-click-if="icons.popover">
+              <div class="iconsList">
+                <div class="iconsListItem" ng-repeat="set in icons.list" ng-class="{'active': set.name === icons.selected.name}" ng-click="icons.selected = set; icons.get()">
+                  <span ng-bind="set.title"></span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <input type="text" ng-model="icons.search" placeholder="Searh for icon name"></input>
+        <ul>
+          <li ng-repeat="icon in icons.selected.icons | filter: icons.search">
+            <i class="{{icons.selected.prefix}} {{icons.selected.prefix+'-'+icon}}"></i>
+            <label>
+              <span ng-bind="icons.selected.prefix+'-'+icon"></span>
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+
+  <script src="core.js"></script>
+  <script src="angular-off-click.min.js"></script>
+
+</html>
