@@ -91,7 +91,7 @@ input{
   top: 25px;
 }
 .popover > .iconsList{
-
+  background-color: #fff;
 }
 .popover > .iconsList > .iconsListItem{
   display: block;
