@@ -1,0 +1,65 @@
+@font-face {
+	font-family: "reedsy";
+	src: url("../fonts/reedsy/reedsy.eot");
+  src: url("../fonts/reedsy/reedsy.eot#iefix") format("embedded-opentype"),
+       url("../fonts/reedsy/reedsy.ttf") format("truetype"),
+       url("../fonts/reedsy/reedsy.woff") format("woff"),
+       url("../fonts/reedsy/reedsy.svg#reedsy") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+i.ree {
+	display: inline-block;
+	font-family: "reedsy"!important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	vertical-align: middle;
+	margin-top: -2px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.ree-calendar:before {
+	content: "\E001";
+}
+
+.ree-first:before {
+	content: "\E002";
+}
+
+.ree-hearth:before {
+	content: "\E003";
+}
+
+.ree-last:before {
+	content: "\E004";
+}
+
+.ree-left:before {
+	content: "\E005";
+}
+
+.ree-list:before {
+	content: "\E006";
+}
+
+.ree-magnifier:before {
+	content: "\E007";
+}
+
+.ree-reedsy:before {
+	content: "\E008";
+}
+
+.ree-right:before {
+	content: "\E009";
+}
+
+.ree-times:before {
+	content: "\E00A";
+}

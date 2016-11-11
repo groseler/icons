@@ -14,6 +14,12 @@
       "name": "psoares",
       "src": "/Users/psoares/WIP/=PSOARES=/Icons/",
       "prefix": "psi"
+    },
+    {
+      "title": "Reedsy",
+      "name": "reedsy",
+      "src": "/Users/psoares/WIP/reedsy/icons/",
+      "prefix": "ree"
     }
   ]
 }
