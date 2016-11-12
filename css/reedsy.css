@@ -24,42 +24,98 @@ i.ree {
 }
 
 
-.ree-calendar:before {
+.ree-arrow-down:before {
 	content: "\E001";
 }
 
-.ree-first:before {
+.ree-arrow-left:before {
 	content: "\E002";
 }
 
-.ree-hearth:before {
+.ree-arrow-right:before {
 	content: "\E003";
 }
 
-.ree-last:before {
+.ree-arrow-up:before {
 	content: "\E004";
 }
 
-.ree-left:before {
+.ree-bookmark:before {
 	content: "\E005";
 }
 
-.ree-list:before {
+.ree-calendar:before {
 	content: "\E006";
 }
 
-.ree-magnifier:before {
+.ree-down:before {
 	content: "\E007";
 }
 
-.ree-reedsy:before {
+.ree-first:before {
 	content: "\E008";
 }
 
-.ree-right:before {
+.ree-folder:before {
 	content: "\E009";
 }
 
-.ree-times:before {
+.ree-hamburger:before {
 	content: "\E00A";
+}
+
+.ree-header:before {
+	content: "\E00B";
+}
+
+.ree-hearth:before {
+	content: "\E00C";
+}
+
+.ree-last:before {
+	content: "\E00D";
+}
+
+.ree-left:before {
+	content: "\E00E";
+}
+
+.ree-list:before {
+	content: "\E00F";
+}
+
+.ree-magnifier:before {
+	content: "\E010";
+}
+
+.ree-reedsy:before {
+	content: "\E011";
+}
+
+.ree-reverse-h:before {
+	content: "\E012";
+}
+
+.ree-reverse-v:before {
+	content: "\E013";
+}
+
+.ree-right:before {
+	content: "\E014";
+}
+
+.ree-slider:before {
+	content: "\E015";
+}
+
+.ree-times:before {
+	content: "\E016";
+}
+
+.ree-up:before {
+	content: "\E017";
+}
+
+.ree-user:before {
+	content: "\E018";
 }

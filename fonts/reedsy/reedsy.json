@@ -1,12 +1,26 @@
 [
+  "arrow-down",
+  "arrow-left",
+  "arrow-right",
+  "arrow-up",
+  "bookmark",
   "calendar",
+  "down",
   "first",
+  "folder",
+  "hamburger",
+  "header",
   "hearth",
   "last",
   "left",
   "list",
   "magnifier",
   "reedsy",
+  "reverse-h",
+  "reverse-v",
   "right",
-  "times"
+  "slider",
+  "times",
+  "up",
+  "user"
 ]
