@@ -7,7 +7,10 @@ vm.dataLoaded = false;
 vm.list = [];
 vm.popover = false;
 
-$http.get('../icons.json')
+iconsJson = "icons.json";
+iconsUrl = "fonts/";
+
+$http.get(iconsJson)
  .then(function(res){
     angular.forEach(res.data.sets, function(obj){
       vm.list.push(obj)
@@ -20,7 +23,7 @@ $http.get('../icons.json')
 vm.get = function() {
   vm.dataLoaded = false;
   name = vm.selected.name
-  $http.get('../fonts/'+name+'/'+name+'.json')
+  $http.get(iconsUrl+name+'/'+name+'.json')
     .then(function(response){
       // console.log(response.data)
       vm.selected.icons = response.data;

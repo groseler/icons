@@ -14,5 +14,5 @@ Feel free to use it...
 
 ### Samples page
 1. Run `gulp serve`
-2. Navigate to `localhost:3000/preview`
+2. Navigate to `localhost:3000` *if door available*
 3. Have fun...

@@ -24,18 +24,178 @@ i.cai {
 }
 
 
-.cai-hearth:before {
+.cai-card:before {
 	content: "\E001";
 }
 
-.cai-medal:before {
+.cai-carrot:before {
 	content: "\E002";
 }
 
-.cai-menu:before {
+.cai-cherries:before {
 	content: "\E003";
 }
 
-.cai-parachute:before {
+.cai-cupcake:before {
 	content: "\E004";
+}
+
+.cai-donut:before {
+	content: "\E005";
+}
+
+.cai-down:before {
+	content: "\E006";
+}
+
+.cai-fish:before {
+	content: "\E007";
+}
+
+.cai-gift:before {
+	content: "\E008";
+}
+
+.cai-guitar:before {
+	content: "\E009";
+}
+
+.cai-hamburger:before {
+	content: "\E00A";
+}
+
+.cai-hearth:before {
+	content: "\E00B";
+}
+
+.cai-hotdog:before {
+	content: "\E00C";
+}
+
+.cai-left:before {
+	content: "\E00D";
+}
+
+.cai-maracas:before {
+	content: "\E00E";
+}
+
+.cai-medal:before {
+	content: "\E00F";
+}
+
+.cai-menu:before {
+	content: "\E010";
+}
+
+.cai-mic:before {
+	content: "\E011";
+}
+
+.cai-mix-table:before {
+	content: "\E012";
+}
+
+.cai-no-cat:before {
+	content: "\E013";
+}
+
+.cai-no-dog:before {
+	content: "\E014";
+}
+
+.cai-no-fur:before {
+	content: "\E015";
+}
+
+.cai-no-glucose:before {
+	content: "\E016";
+}
+
+.cai-no-sugar:before {
+	content: "\E017";
+}
+
+.cai-no-touch:before {
+	content: "\E018";
+}
+
+.cai-no:before {
+	content: "\E019";
+}
+
+.cai-noodles:before {
+	content: "\E01A";
+}
+
+.cai-parachute:before {
+	content: "\E01B";
+}
+
+.cai-pin:before {
+	content: "\E01C";
+}
+
+.cai-pizza:before {
+	content: "\E01D";
+}
+
+.cai-powered-by-stripe:before {
+	content: "\E01E";
+}
+
+.cai-record-player:before {
+	content: "\E01F";
+}
+
+.cai-right:before {
+	content: "\E020";
+}
+
+.cai-rocket:before {
+	content: "\E021";
+}
+
+.cai-sax:before {
+	content: "\E022";
+}
+
+.cai-star-filled:before {
+	content: "\E023";
+}
+
+.cai-star:before {
+	content: "\E024";
+}
+
+.cai-steak:before {
+	content: "\E025";
+}
+
+.cai-stripe:before {
+	content: "\E026";
+}
+
+.cai-sushi:before {
+	content: "\E027";
+}
+
+.cai-trash:before {
+	content: "\E028";
+}
+
+.cai-trumpet:before {
+	content: "\E029";
+}
+
+.cai-up:before {
+	content: "\E02A";
+}
+
+.cai-user:before {
+	content: "\E02B";
+}
+
+.cai-wrap:before {
+	content: "\E02C";
 }

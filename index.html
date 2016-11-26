@@ -2,10 +2,10 @@
 <html ng-app="app" ng-controller="IconsCtrl as icons">
   <head>
     <title>Icons - PSoares</title>
-    <link ng-if="icons.dataLoaded" rel="stylesheet" type="text/css" ng-href="../css/{{icons.selected.name}}.css">
+    <link ng-if="icons.dataLoaded" rel="stylesheet" type="text/css" ng-href="css/{{icons.selected.name}}.css">
     <link rel="stylesheet" type="text/css" ng-href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" type="text/css" ng-href="style.css">
+    <link rel="stylesheet" type="text/css" ng-href="preview/style.css">
   </head>
   <body>
     <div class="wrapper" ng-if="icons.dataLoaded">
@@ -42,7 +42,7 @@
   </body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
 
-  <script src="core.js"></script>
-  <script src="angular-off-click.min.js"></script>
+  <script src="preview/core.js"></script>
+  <script src="preview/angular-off-click.min.js"></script>
 
 </html>
