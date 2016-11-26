@@ -28,15 +28,4 @@ vm.get = function() {
     });
 }
 
-
-//
-//
-// $http.get('../icons.json')
-//  .then(function(res){
-//     vm.data = res.data.sets;
-//     vm.get(res.data.sets[0].name)
-//     console.log('icons: ', res.data.sets[0])
-//   });
-
-
 });

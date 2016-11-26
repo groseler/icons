@@ -1,0 +1,29 @@
+@font-face {
+	font-family: "cake";
+	src: url("../fonts/cake/cake.eot");
+  src: url("../fonts/cake/cake.eot#iefix") format("embedded-opentype"),
+       url("../fonts/cake/cake.ttf") format("truetype"),
+       url("../fonts/cake/cake.woff") format("woff"),
+       url("../fonts/cake/cake.svg#cake") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+i.ca {
+	display: inline-block;
+	font-family: "cake"!important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	vertical-align: middle;
+	margin-top: -2px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.ca-parachute:before {
+	content: "\E001";
+}

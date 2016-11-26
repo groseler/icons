@@ -20,6 +20,12 @@
       "name": "reedsy",
       "src": "/Users/psoares/WIP/reedsy/icons/",
       "prefix": "ree"
+    },
+    {
+      "title": "Cake",
+      "name": "cake",
+      "src": "/Users/psoares/WIP/opean/cake/icons/",
+      "prefix": "ca"
     }
   ]
 }

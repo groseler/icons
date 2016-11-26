@@ -1,7 +1,7 @@
 # Icon SVG font generator
 
 ### Why I did this?
-I produce alot of icons, and I need to generate icon fonts too many times, so I've did this to help me on dev!
+I produce a lot of icons, and I need to generate icon fonts too many times, so I've did this to help me on dev!
 Feel free to use it...
 
 ### Usage
