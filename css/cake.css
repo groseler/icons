@@ -9,7 +9,7 @@
 	font-style: normal;
 }
 
-i.ca {
+i.cai {
 	display: inline-block;
 	font-family: "cake"!important;
 	speak: none;
@@ -24,6 +24,18 @@ i.ca {
 }
 
 
-.ca-parachute:before {
+.cai-hearth:before {
 	content: "\E001";
+}
+
+.cai-medal:before {
+	content: "\E002";
+}
+
+.cai-menu:before {
+	content: "\E003";
+}
+
+.cai-parachute:before {
+	content: "\E004";
 }

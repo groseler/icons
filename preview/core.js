@@ -5,7 +5,7 @@ app.controller('IconsCtrl', function($scope, $http) {
 var vm = this;
 vm.dataLoaded = false;
 vm.list = [];
-vm.popover = true;
+vm.popover = false;
 
 $http.get('../icons.json')
  .then(function(res){
@@ -22,9 +22,10 @@ vm.get = function() {
   name = vm.selected.name
   $http.get('../fonts/'+name+'/'+name+'.json')
     .then(function(response){
-      console.log(response.data)
+      // console.log(response.data)
       vm.selected.icons = response.data;
       vm.dataLoaded = true;
+      vm.popover = false;
     });
 }
 
