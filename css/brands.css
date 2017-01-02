@@ -1,0 +1,77 @@
+@font-face {
+	font-family: "brands";
+	src: url("../fonts/brands/brands.eot");
+  src: url("../fonts/brands/brands.eot#iefix") format("embedded-opentype"),
+       url("../fonts/brands/brands.ttf") format("truetype"),
+       url("../fonts/brands/brands.woff") format("woff"),
+       url("../fonts/brands/brands.svg#brands") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+i.bri {
+	display: inline-block;
+	font-family: "brands"!important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	vertical-align: middle;
+	margin-top: -2px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.bri-bing:before {
+	content: "\E001";
+}
+
+.bri-citysquares:before {
+	content: "\E002";
+}
+
+.bri-elocal:before {
+	content: "\E003";
+}
+
+.bri-facebook:before {
+	content: "\E004";
+}
+
+.bri-foursquare:before {
+	content: "\E005";
+}
+
+.bri-google:before {
+	content: "\E006";
+}
+
+.bri-localcom:before {
+	content: "\E007";
+}
+
+.bri-localdatabase:before {
+	content: "\E008";
+}
+
+.bri-mapquest:before {
+	content: "\E009";
+}
+
+.bri-showmelocal:before {
+	content: "\E00A";
+}
+
+.bri-whitepages:before {
+	content: "\E00B";
+}
+
+.bri-yahoo:before {
+	content: "\E00C";
+}
+
+.bri-yelp:before {
+	content: "\E00D";
+}

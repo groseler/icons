@@ -24,178 +24,342 @@ i.cai {
 }
 
 
-.cai-card:before {
+.cai-balloons-fill:before {
 	content: "\E001";
 }
 
-.cai-carrot:before {
+.cai-balloons:before {
 	content: "\E002";
 }
 
-.cai-cherries:before {
+.cai-beetle-fill:before {
 	content: "\E003";
 }
 
-.cai-cupcake:before {
+.cai-beetle:before {
 	content: "\E004";
 }
 
-.cai-donut:before {
+.cai-binoculars-fill:before {
 	content: "\E005";
 }
 
-.cai-down:before {
+.cai-binoculars:before {
 	content: "\E006";
 }
 
-.cai-fish:before {
+.cai-cake:before {
 	content: "\E007";
 }
 
-.cai-gift:before {
+.cai-camel-fill:before {
 	content: "\E008";
 }
 
-.cai-guitar:before {
+.cai-camel:before {
 	content: "\E009";
 }
 
-.cai-hamburger:before {
+.cai-card:before {
 	content: "\E00A";
 }
 
-.cai-hearth:before {
+.cai-carrot:before {
 	content: "\E00B";
 }
 
-.cai-hotdog:before {
+.cai-cherries:before {
 	content: "\E00C";
 }
 
-.cai-left:before {
+.cai-circus-fill:before {
 	content: "\E00D";
 }
 
-.cai-maracas:before {
+.cai-circus:before {
 	content: "\E00E";
 }
 
-.cai-medal:before {
+.cai-crocodile-fill:before {
 	content: "\E00F";
 }
 
-.cai-menu:before {
+.cai-crocodile:before {
 	content: "\E010";
 }
 
-.cai-mic:before {
+.cai-cupcake-fill:before {
 	content: "\E011";
 }
 
-.cai-mix-table:before {
+.cai-cupcake:before {
 	content: "\E012";
 }
 
-.cai-no-cat:before {
+.cai-donut:before {
 	content: "\E013";
 }
 
-.cai-no-dog:before {
+.cai-down:before {
 	content: "\E014";
 }
 
-.cai-no-fur:before {
+.cai-drum-fill:before {
 	content: "\E015";
 }
 
-.cai-no-glucose:before {
+.cai-drum:before {
 	content: "\E016";
 }
 
-.cai-no-sugar:before {
+.cai-fish:before {
 	content: "\E017";
 }
 
-.cai-no-touch:before {
+.cai-flowers-fill:before {
 	content: "\E018";
 }
 
-.cai-no:before {
+.cai-flowers:before {
 	content: "\E019";
 }
 
-.cai-noodles:before {
+.cai-food-truck-fill:before {
 	content: "\E01A";
 }
 
-.cai-parachute:before {
+.cai-food-truck:before {
 	content: "\E01B";
 }
 
-.cai-pin:before {
+.cai-gift:before {
 	content: "\E01C";
 }
 
-.cai-pizza:before {
+.cai-guitar-fill:before {
 	content: "\E01D";
 }
 
-.cai-powered-by-stripe:before {
+.cai-guitar:before {
 	content: "\E01E";
 }
 
-.cai-record-player:before {
+.cai-hamburger:before {
 	content: "\E01F";
 }
 
-.cai-right:before {
+.cai-hearth:before {
 	content: "\E020";
 }
 
-.cai-rocket:before {
+.cai-hotdog:before {
 	content: "\E021";
 }
 
-.cai-sax:before {
+.cai-juggle-fill:before {
 	content: "\E022";
 }
 
-.cai-star-filled:before {
+.cai-juggle:before {
 	content: "\E023";
 }
 
-.cai-star:before {
+.cai-left:before {
 	content: "\E024";
 }
 
-.cai-steak:before {
+.cai-maracas:before {
 	content: "\E025";
 }
 
-.cai-stripe:before {
+.cai-medal:before {
 	content: "\E026";
 }
 
-.cai-sushi:before {
+.cai-menu:before {
 	content: "\E027";
 }
 
-.cai-trash:before {
+.cai-mic-fill:before {
 	content: "\E028";
 }
 
-.cai-trumpet:before {
+.cai-mic:before {
 	content: "\E029";
 }
 
-.cai-up:before {
+.cai-mix-table:before {
 	content: "\E02A";
 }
 
-.cai-user:before {
+.cai-no-cat:before {
 	content: "\E02B";
 }
 
-.cai-wrap:before {
+.cai-no-dog:before {
 	content: "\E02C";
+}
+
+.cai-no-fur:before {
+	content: "\E02D";
+}
+
+.cai-no-glucose:before {
+	content: "\E02E";
+}
+
+.cai-no-sugar:before {
+	content: "\E02F";
+}
+
+.cai-no-touch:before {
+	content: "\E030";
+}
+
+.cai-no:before {
+	content: "\E031";
+}
+
+.cai-noodles:before {
+	content: "\E032";
+}
+
+.cai-parachute:before {
+	content: "\E033";
+}
+
+.cai-pin:before {
+	content: "\E034";
+}
+
+.cai-pizza-fill:before {
+	content: "\E035";
+}
+
+.cai-pizza:before {
+	content: "\E036";
+}
+
+.cai-plane-fill:before {
+	content: "\E037";
+}
+
+.cai-plane:before {
+	content: "\E038";
+}
+
+.cai-powered-by-stripe:before {
+	content: "\E039";
+}
+
+.cai-puppy-fill:before {
+	content: "\E03A";
+}
+
+.cai-puppy:before {
+	content: "\E03B";
+}
+
+.cai-radio-fill:before {
+	content: "\E03C";
+}
+
+.cai-radio:before {
+	content: "\E03D";
+}
+
+.cai-record-player:before {
+	content: "\E03E";
+}
+
+.cai-right:before {
+	content: "\E03F";
+}
+
+.cai-rocket:before {
+	content: "\E040";
+}
+
+.cai-sax:before {
+	content: "\E041";
+}
+
+.cai-serving-fill:before {
+	content: "\E042";
+}
+
+.cai-serving:before {
+	content: "\E043";
+}
+
+.cai-star-filled:before {
+	content: "\E044";
+}
+
+.cai-star:before {
+	content: "\E045";
+}
+
+.cai-steak:before {
+	content: "\E046";
+}
+
+.cai-stones-fill:before {
+	content: "\E047";
+}
+
+.cai-stones:before {
+	content: "\E048";
+}
+
+.cai-stripe:before {
+	content: "\E049";
+}
+
+.cai-sushi:before {
+	content: "\E04A";
+}
+
+.cai-theatre-fill:before {
+	content: "\E04B";
+}
+
+.cai-theatre:before {
+	content: "\E04C";
+}
+
+.cai-ticket-fill:before {
+	content: "\E04D";
+}
+
+.cai-ticket:before {
+	content: "\E04E";
+}
+
+.cai-trash:before {
+	content: "\E04F";
+}
+
+.cai-trumpet:before {
+	content: "\E050";
+}
+
+.cai-unicycle-fill:before {
+	content: "\E051";
+}
+
+.cai-unicycle:before {
+	content: "\E052";
+}
+
+.cai-up:before {
+	content: "\E053";
+}
+
+.cai-user:before {
+	content: "\E054";
+}
+
+.cai-wrap:before {
+	content: "\E055";
 }

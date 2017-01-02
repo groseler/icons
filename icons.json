@@ -26,6 +26,12 @@
       "name": "cake",
       "src": "/Users/psoares/WIP/Opean/cake/icons/",
       "prefix": "cai"
+    },
+    {
+      "title": "Brands",
+      "name": "brands",
+      "src": "/Ressources/icons/brands/",
+      "prefix": "bri"
     }
   ]
 }
