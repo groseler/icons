@@ -12,7 +12,7 @@
     {
       "title": "PSoares",
       "name": "psoares",
-      "src": "/Users/psoares/WIP/=PSOARES=/Icons/",
+      "src": "/Users/psoares/Google Drive/Work/=PSOARES=/Icons",
       "prefix": "psi"
     },
     {
@@ -24,7 +24,7 @@
     {
       "title": "Cake",
       "name": "cake",
-      "src": "/Users/psoares/WIP/Opean/cake/icons/",
+      "src": "/Users/psoares/Google Drive/Work/Viewsy/cake/icons",
       "prefix": "cai"
     },
     {
@@ -32,6 +32,12 @@
       "name": "brands",
       "src": "/Ressources/icons/brands/",
       "prefix": "bri"
+    },
+    {
+      "title": "Flag.io",
+      "name": "flagio",
+      "src": "/Users/psoares/Google Drive/Work/Viewsy/Flag-io/Icons/flagio",
+      "prefix": "fli"
     }
   ]
 }

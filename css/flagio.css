@@ -1,0 +1,789 @@
+@font-face {
+	font-family: "flagio";
+	src: url("../fonts/flagio/flagio.eot");
+  src: url("../fonts/flagio/flagio.eot#iefix") format("embedded-opentype"),
+       url("../fonts/flagio/flagio.ttf") format("truetype"),
+       url("../fonts/flagio/flagio.woff") format("woff"),
+       url("../fonts/flagio/flagio.svg#flagio") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+i.fli {
+	display: inline-block;
+	font-family: "flagio"!important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	vertical-align: middle;
+	margin-top: -2px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.fli-agenda:before {
+	content: "\E001";
+}
+
+.fli-airplane:before {
+	content: "\E002";
+}
+
+.fli-alarm-clock:before {
+	content: "\E003";
+}
+
+.fli-arrow-down:before {
+	content: "\E004";
+}
+
+.fli-arrow-left:before {
+	content: "\E005";
+}
+
+.fli-arrow-right:before {
+	content: "\E006";
+}
+
+.fli-arrow-up:before {
+	content: "\E007";
+}
+
+.fli-attachment:before {
+	content: "\E008";
+}
+
+.fli-badge:before {
+	content: "\E009";
+}
+
+.fli-basketball:before {
+	content: "\E00A";
+}
+
+.fli-battery-full:before {
+	content: "\E00B";
+}
+
+.fli-battery:before {
+	content: "\E00C";
+}
+
+.fli-beer:before {
+	content: "\E00D";
+}
+
+.fli-bell:before {
+	content: "\E00E";
+}
+
+.fli-bookmark:before {
+	content: "\E00F";
+}
+
+.fli-boxed-arrow-down:before {
+	content: "\E010";
+}
+
+.fli-boxed-arrow-left:before {
+	content: "\E011";
+}
+
+.fli-boxed-arrow-lower-left:before {
+	content: "\E012";
+}
+
+.fli-boxed-arrow-lower-right:before {
+	content: "\E013";
+}
+
+.fli-boxed-arrow-right:before {
+	content: "\E014";
+}
+
+.fli-boxed-arrow-up:before {
+	content: "\E015";
+}
+
+.fli-boxed-arrow-upper-left:before {
+	content: "\E016";
+}
+
+.fli-boxed-arrow-upper-right:before {
+	content: "\E017";
+}
+
+.fli-boxed-information:before {
+	content: "\E018";
+}
+
+.fli-boxed-password:before {
+	content: "\E019";
+}
+
+.fli-boxed-reload:before {
+	content: "\E01A";
+}
+
+.fli-briefcase:before {
+	content: "\E01B";
+}
+
+.fli-cake:before {
+	content: "\E01C";
+}
+
+.fli-calendar:before {
+	content: "\E01D";
+}
+
+.fli-camera:before {
+	content: "\E01E";
+}
+
+.fli-candle:before {
+	content: "\E01F";
+}
+
+.fli-cd:before {
+	content: "\E020";
+}
+
+.fli-circled-dollar:before {
+	content: "\E021";
+}
+
+.fli-circled-down:before {
+	content: "\E022";
+}
+
+.fli-circled-euro:before {
+	content: "\E023";
+}
+
+.fli-circled-left:before {
+	content: "\E024";
+}
+
+.fli-circled-minus:before {
+	content: "\E025";
+}
+
+.fli-circled-plus:before {
+	content: "\E026";
+}
+
+.fli-circled-pound:before {
+	content: "\E027";
+}
+
+.fli-circled-question:before {
+	content: "\E028";
+}
+
+.fli-circled-right:before {
+	content: "\E029";
+}
+
+.fli-circled-tick:before {
+	content: "\E02A";
+}
+
+.fli-circled-times:before {
+	content: "\E02B";
+}
+
+.fli-circled-up:before {
+	content: "\E02C";
+}
+
+.fli-circled-yen:before {
+	content: "\E02D";
+}
+
+.fli-clock:before {
+	content: "\E02E";
+}
+
+.fli-cloud-download:before {
+	content: "\E02F";
+}
+
+.fli-cloud-upload:before {
+	content: "\E030";
+}
+
+.fli-cocktail-umbrella:before {
+	content: "\E031";
+}
+
+.fli-cocktail:before {
+	content: "\E032";
+}
+
+.fli-coffee-cup:before {
+	content: "\E033";
+}
+
+.fli-compass-arrow:before {
+	content: "\E034";
+}
+
+.fli-compass:before {
+	content: "\E035";
+}
+
+.fli-control-beguinning:before {
+	content: "\E036";
+}
+
+.fli-control-eject:before {
+	content: "\E037";
+}
+
+.fli-control-end:before {
+	content: "\E038";
+}
+
+.fli-control-fast-forward:before {
+	content: "\E039";
+}
+
+.fli-control-pause:before {
+	content: "\E03A";
+}
+
+.fli-control-play:before {
+	content: "\E03B";
+}
+
+.fli-control-rewind:before {
+	content: "\E03C";
+}
+
+.fli-control-stop:before {
+	content: "\E03D";
+}
+
+.fli-credit-card-blank:before {
+	content: "\E03E";
+}
+
+.fli-credit-card:before {
+	content: "\E03F";
+}
+
+.fli-cupcake:before {
+	content: "\E040";
+}
+
+.fli-dashboard:before {
+	content: "\E041";
+}
+
+.fli-diamond:before {
+	content: "\E042";
+}
+
+.fli-document:before {
+	content: "\E043";
+}
+
+.fli-dollar:before {
+	content: "\E044";
+}
+
+.fli-down:before {
+	content: "\E045";
+}
+
+.fli-download:before {
+	content: "\E046";
+}
+
+.fli-enter:before {
+	content: "\E047";
+}
+
+.fli-envelope:before {
+	content: "\E048";
+}
+
+.fli-exit:before {
+	content: "\E049";
+}
+
+.fli-eye:before {
+	content: "\E04A";
+}
+
+.fli-file-blank:before {
+	content: "\E04B";
+}
+
+.fli-file-minus:before {
+	content: "\E04C";
+}
+
+.fli-file-plus:before {
+	content: "\E04D";
+}
+
+.fli-file-text:before {
+	content: "\E04E";
+}
+
+.fli-file-tick:before {
+	content: "\E04F";
+}
+
+.fli-file-times:before {
+	content: "\E050";
+}
+
+.fli-file:before {
+	content: "\E051";
+}
+
+.fli-flag:before {
+	content: "\E052";
+}
+
+.fli-flagio:before {
+	content: "\E053";
+}
+
+.fli-folder-left:before {
+	content: "\E054";
+}
+
+.fli-folder-plus:before {
+	content: "\E055";
+}
+
+.fli-folder-right:before {
+	content: "\E056";
+}
+
+.fli-folder-star:before {
+	content: "\E057";
+}
+
+.fli-folder:before {
+	content: "\E058";
+}
+
+.fli-funnel:before {
+	content: "\E059";
+}
+
+.fli-garage:before {
+	content: "\E05A";
+}
+
+.fli-gear:before {
+	content: "\E05B";
+}
+
+.fli-gift:before {
+	content: "\E05C";
+}
+
+.fli-grid:before {
+	content: "\E05D";
+}
+
+.fli-headphones:before {
+	content: "\E05E";
+}
+
+.fli-headset:before {
+	content: "\E05F";
+}
+
+.fli-heart:before {
+	content: "\E060";
+}
+
+.fli-helm:before {
+	content: "\E061";
+}
+
+.fli-home:before {
+	content: "\E062";
+}
+
+.fli-hourglass:before {
+	content: "\E063";
+}
+
+.fli-id-card:before {
+	content: "\E064";
+}
+
+.fli-ipsum-horizontal:before {
+	content: "\E065";
+}
+
+.fli-ipsum-vertical:before {
+	content: "\E066";
+}
+
+.fli-key:before {
+	content: "\E067";
+}
+
+.fli-king:before {
+	content: "\E068";
+}
+
+.fli-label-discount:before {
+	content: "\E069";
+}
+
+.fli-label:before {
+	content: "\E06A";
+}
+
+.fli-left:before {
+	content: "\E06B";
+}
+
+.fli-life-buoy:before {
+	content: "\E06C";
+}
+
+.fli-light-bulb:before {
+	content: "\E06D";
+}
+
+.fli-link:before {
+	content: "\E06E";
+}
+
+.fli-list-dots:before {
+	content: "\E06F";
+}
+
+.fli-list-ticks:before {
+	content: "\E070";
+}
+
+.fli-list:before {
+	content: "\E071";
+}
+
+.fli-lotus:before {
+	content: "\E072";
+}
+
+.fli-marker-filled:before {
+	content: "\E073";
+}
+
+.fli-medal:before {
+	content: "\E074";
+}
+
+.fli-megaphone:before {
+	content: "\E075";
+}
+
+.fli-microphone:before {
+	content: "\E076";
+}
+
+.fli-minus:before {
+	content: "\E077";
+}
+
+.fli-money:before {
+	content: "\E078";
+}
+
+.fli-monitor:before {
+	content: "\E079";
+}
+
+.fli-moon:before {
+	content: "\E07A";
+}
+
+.fli-mouse:before {
+	content: "\E07B";
+}
+
+.fli-musical-note:before {
+	content: "\E07C";
+}
+
+.fli-mute:before {
+	content: "\E07D";
+}
+
+.fli-notepad:before {
+	content: "\E07E";
+}
+
+.fli-options:before {
+	content: "\E07F";
+}
+
+.fli-padlock-open:before {
+	content: "\E080";
+}
+
+.fli-padlock:before {
+	content: "\E081";
+}
+
+.fli-pencil:before {
+	content: "\E082";
+}
+
+.fli-people:before {
+	content: "\E083";
+}
+
+.fli-picture:before {
+	content: "\E084";
+}
+
+.fli-pie-chart:before {
+	content: "\E085";
+}
+
+.fli-placeholder:before {
+	content: "\E086";
+}
+
+.fli-plus:before {
+	content: "\E087";
+}
+
+.fli-power-button:before {
+	content: "\E088";
+}
+
+.fli-prohibition:before {
+	content: "\E089";
+}
+
+.fli-push-pin:before {
+	content: "\E08A";
+}
+
+.fli-redo:before {
+	content: "\E08B";
+}
+
+.fli-reload:before {
+	content: "\E08C";
+}
+
+.fli-return:before {
+	content: "\E08D";
+}
+
+.fli-right:before {
+	content: "\E08E";
+}
+
+.fli-rocket-ship:before {
+	content: "\E08F";
+}
+
+.fli-ruler:before {
+	content: "\E090";
+}
+
+.fli-saturn:before {
+	content: "\E091";
+}
+
+.fli-scissors:before {
+	content: "\E092";
+}
+
+.fli-search:before {
+	content: "\E093";
+}
+
+.fli-shirt:before {
+	content: "\E094";
+}
+
+.fli-shopping-bag:before {
+	content: "\E095";
+}
+
+.fli-shopping-basket:before {
+	content: "\E096";
+}
+
+.fli-shopping-cart:before {
+	content: "\E097";
+}
+
+.fli-smartphone:before {
+	content: "\E098";
+}
+
+.fli-snowflake:before {
+	content: "\E099";
+}
+
+.fli-speaker:before {
+	content: "\E09A";
+}
+
+.fli-speech-bubble-1:before {
+	content: "\E09B";
+}
+
+.fli-speech-bubble:before {
+	content: "\E09C";
+}
+
+.fli-speedometer:before {
+	content: "\E09D";
+}
+
+.fli-sprout:before {
+	content: "\E09E";
+}
+
+.fli-star:before {
+	content: "\E09F";
+}
+
+.fli-stats:before {
+	content: "\E0A0";
+}
+
+.fli-sun:before {
+	content: "\E0A1";
+}
+
+.fli-tablet:before {
+	content: "\E0A2";
+}
+
+.fli-target:before {
+	content: "\E0A3";
+}
+
+.fli-telephone:before {
+	content: "\E0A4";
+}
+
+.fli-tick:before {
+	content: "\E0A5";
+}
+
+.fli-tie:before {
+	content: "\E0A6";
+}
+
+.fli-times:before {
+	content: "\E0A7";
+}
+
+.fli-trash:before {
+	content: "\E0A8";
+}
+
+.fli-truck:before {
+	content: "\E0A9";
+}
+
+.fli-umbrella:before {
+	content: "\E0AA";
+}
+
+.fli-undo:before {
+	content: "\E0AB";
+}
+
+.fli-unlink:before {
+	content: "\E0AC";
+}
+
+.fli-up:before {
+	content: "\E0AD";
+}
+
+.fli-upload:before {
+	content: "\E0AE";
+}
+
+.fli-user-cap:before {
+	content: "\E0AF";
+}
+
+.fli-user-tie:before {
+	content: "\E0B0";
+}
+
+.fli-user:before {
+	content: "\E0B1";
+}
+
+.fli-wallet:before {
+	content: "\E0B2";
+}
+
+.fli-warning:before {
+	content: "\E0B3";
+}
+
+.fli-weather-cloud:before {
+	content: "\E0B4";
+}
+
+.fli-weather-cloudy:before {
+	content: "\E0B5";
+}
+
+.fli-weather-mix:before {
+	content: "\E0B6";
+}
+
+.fli-weather-rain:before {
+	content: "\E0B7";
+}
+
+.fli-weather-storm:before {
+	content: "\E0B8";
+}
+
+.fli-wifi-bars:before {
+	content: "\E0B9";
+}
+
+.fli-wifi:before {
+	content: "\E0BA";
+}
+
+.fli-wine:before {
+	content: "\E0BB";
+}
+
+.fli-world:before {
+	content: "\E0BC";
+}
+
+.fli-wrench:before {
+	content: "\E0BD";
+}
+
+.fli-zoom-in:before {
+	content: "\E0BE";
+}
+
+.fli-zoom-out:before {
+	content: "\E0BF";
+}
