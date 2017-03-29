@@ -264,11 +264,11 @@ i.soc {
 	content: "\E03C";
 }
 
-.soc-linked-in-square-button:before {
+.soc-linkedin-square:before {
 	content: "\E03D";
 }
 
-.soc-linked-in:before {
+.soc-linkedin:before {
 	content: "\E03E";
 }
 
