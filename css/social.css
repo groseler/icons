@@ -1,0 +1,533 @@
+@font-face {
+	font-family: "social";
+	src: url("../fonts/social/social.eot");
+  src: url("../fonts/social/social.eot#iefix") format("embedded-opentype"),
+       url("../fonts/social/social.ttf") format("truetype"),
+       url("../fonts/social/social.woff") format("woff"),
+       url("../fonts/social/social.svg#social") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+i.soc {
+	display: inline-block;
+	font-family: "social"!important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	vertical-align: middle;
+	margin-top: -2px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.soc-aim:before {
+	content: "\E001";
+}
+
+.soc-amazon:before {
+	content: "\E002";
+}
+
+.soc-aol-flatty:before {
+	content: "\E003";
+}
+
+.soc-app-store:before {
+	content: "\E004";
+}
+
+.soc-apple:before {
+	content: "\E005";
+}
+
+.soc-arto:before {
+	content: "\E006";
+}
+
+.soc-astronaut-reading:before {
+	content: "\E007";
+}
+
+.soc-aws:before {
+	content: "\E008";
+}
+
+.soc-baidu:before {
+	content: "\E009";
+}
+
+.soc-basecamp:before {
+	content: "\E00A";
+}
+
+.soc-bebo:before {
+	content: "\E00B";
+}
+
+.soc-behance:before {
+	content: "\E00C";
+}
+
+.soc-bing:before {
+	content: "\E00D";
+}
+
+.soc-blip:before {
+	content: "\E00E";
+}
+
+.soc-blogger:before {
+	content: "\E00F";
+}
+
+.soc-bnter:before {
+	content: "\E010";
+}
+
+.soc-creative-commons-circular:before {
+	content: "\E011";
+}
+
+.soc-daili-booth:before {
+	content: "\E012";
+}
+
+.soc-delicious:before {
+	content: "\E013";
+}
+
+.soc-design-bump:before {
+	content: "\E014";
+}
+
+.soc-design-float:before {
+	content: "\E015";
+}
+
+.soc-design-moo:before {
+	content: "\E016";
+}
+
+.soc-devianart:before {
+	content: "\E017";
+}
+
+.soc-diggtype:before {
+	content: "\E018";
+}
+
+.soc-diigo:before {
+	content: "\E019";
+}
+
+.soc-dribble:before {
+	content: "\E01A";
+}
+
+.soc-dropbox:before {
+	content: "\E01B";
+}
+
+.soc-drupal:before {
+	content: "\E01C";
+}
+
+.soc-ebay:before {
+	content: "\E01D";
+}
+
+.soc-ember:before {
+	content: "\E01E";
+}
+
+.soc-etsy:before {
+	content: "\E01F";
+}
+
+.soc-evernote:before {
+	content: "\E020";
+}
+
+.soc-facebook-square:before {
+	content: "\E021";
+}
+
+.soc-facebook:before {
+	content: "\E022";
+}
+
+.soc-facto-me:before {
+	content: "\E023";
+}
+
+.soc-feed-burner:before {
+	content: "\E024";
+}
+
+.soc-flickr:before {
+	content: "\E025";
+}
+
+.soc-folkd:before {
+	content: "\E026";
+}
+
+.soc-formspring:before {
+	content: "\E027";
+}
+
+.soc-forrst:before {
+	content: "\E028";
+}
+
+.soc-foursquare:before {
+	content: "\E029";
+}
+
+.soc-friend-feed:before {
+	content: "\E02A";
+}
+
+.soc-gdgt:before {
+	content: "\E02B";
+}
+
+.soc-github-g:before {
+	content: "\E02C";
+}
+
+.soc-github:before {
+	content: "\E02D";
+}
+
+.soc-google-buzz:before {
+	content: "\E02E";
+}
+
+.soc-google-g:before {
+	content: "\E02F";
+}
+
+.soc-google-plus:before {
+	content: "\E030";
+}
+
+.soc-google-talk:before {
+	content: "\E031";
+}
+
+.soc-gowalla:before {
+	content: "\E032";
+}
+
+.soc-graphic:before {
+	content: "\E033";
+}
+
+.soc-hacker:before {
+	content: "\E034";
+}
+
+.soc-hi5:before {
+	content: "\E035";
+}
+
+.soc-hyves:before {
+	content: "\E036";
+}
+
+.soc-icloud:before {
+	content: "\E037";
+}
+
+.soc-inclinated-pinboard:before {
+	content: "\E038";
+}
+
+.soc-instapaper:before {
+	content: "\E039";
+}
+
+.soc-kik-messenger:before {
+	content: "\E03A";
+}
+
+.soc-krop:before {
+	content: "\E03B";
+}
+
+.soc-lastfm:before {
+	content: "\E03C";
+}
+
+.soc-linked-in-square-button:before {
+	content: "\E03D";
+}
+
+.soc-linked-in:before {
+	content: "\E03E";
+}
+
+.soc-male-profile-picture:before {
+	content: "\E03F";
+}
+
+.soc-meetup:before {
+	content: "\E040";
+}
+
+.soc-metacafe:before {
+	content: "\E041";
+}
+
+.soc-microsoft-windows:before {
+	content: "\E042";
+}
+
+.soc-ming:before {
+	content: "\E043";
+}
+
+.soc-mister-wong:before {
+	content: "\E044";
+}
+
+.soc-msn-social:before {
+	content: "\E045";
+}
+
+.soc-myspace:before {
+	content: "\E046";
+}
+
+.soc-news-vine:before {
+	content: "\E047";
+}
+
+.soc-official-fm:before {
+	content: "\E048";
+}
+
+.soc-openid:before {
+	content: "\E049";
+}
+
+.soc-orkut:before {
+	content: "\E04A";
+}
+
+.soc-pandora:before {
+	content: "\E04B";
+}
+
+.soc-paypal:before {
+	content: "\E04C";
+}
+
+.soc-picasa:before {
+	content: "\E04D";
+}
+
+.soc-ping:before {
+	content: "\E04E";
+}
+
+.soc-pingchat:before {
+	content: "\E04F";
+}
+
+.soc-pinterest:before {
+	content: "\E050";
+}
+
+.soc-placeholder:before {
+	content: "\E051";
+}
+
+.soc-playstation:before {
+	content: "\E052";
+}
+
+.soc-plixi:before {
+	content: "\E053";
+}
+
+.soc-plurk:before {
+	content: "\E054";
+}
+
+.soc-podcast:before {
+	content: "\E055";
+}
+
+.soc-qik:before {
+	content: "\E056";
+}
+
+.soc-quaver-circular-button:before {
+	content: "\E057";
+}
+
+.soc-quora:before {
+	content: "\E058";
+}
+
+.soc-rain-cloud:before {
+	content: "\E059";
+}
+
+.soc-rdio:before {
+	content: "\E05A";
+}
+
+.soc-reddit:before {
+	content: "\E05B";
+}
+
+.soc-retweet-symbol:before {
+	content: "\E05C";
+}
+
+.soc-round-robot:before {
+	content: "\E05D";
+}
+
+.soc-scribd:before {
+	content: "\E05E";
+}
+
+.soc-share-symbol:before {
+	content: "\E05F";
+}
+
+.soc-shark-fin:before {
+	content: "\E060";
+}
+
+.soc-simple-note:before {
+	content: "\E061";
+}
+
+.soc-skype:before {
+	content: "\E062";
+}
+
+.soc-slideshare:before {
+	content: "\E063";
+}
+
+.soc-smile-face:before {
+	content: "\E064";
+}
+
+.soc-smug-mug:before {
+	content: "\E065";
+}
+
+.soc-soundcloud:before {
+	content: "\E066";
+}
+
+.soc-speech-bubble-with-heart:before {
+	content: "\E067";
+}
+
+.soc-speech:before {
+	content: "\E068";
+}
+
+.soc-spotify:before {
+	content: "\E069";
+}
+
+.soc-square-space:before {
+	content: "\E06A";
+}
+
+.soc-squidoo:before {
+	content: "\E06B";
+}
+
+.soc-steam-machine:before {
+	content: "\E06C";
+}
+
+.soc-stumbleupon:before {
+	content: "\E06D";
+}
+
+.soc-technorati:before {
+	content: "\E06E";
+}
+
+.soc-tumblr:before {
+	content: "\E06F";
+}
+
+.soc-twitter:before {
+	content: "\E070";
+}
+
+.soc-viddler:before {
+	content: "\E071";
+}
+
+.soc-vimeo:before {
+	content: "\E072";
+}
+
+.soc-virb:before {
+	content: "\E073";
+}
+
+.soc-whatsapp:before {
+	content: "\E074";
+}
+
+.soc-wikipedia:before {
+	content: "\E075";
+}
+
+.soc-wists:before {
+	content: "\E076";
+}
+
+.soc-wordpress:before {
+	content: "\E077";
+}
+
+.soc-xing:before {
+	content: "\E078";
+}
+
+.soc-yahoo-buzz:before {
+	content: "\E079";
+}
+
+.soc-yahoo-messenger:before {
+	content: "\E07A";
+}
+
+.soc-yahoo:before {
+	content: "\E07B";
+}
+
+.soc-yelp:before {
+	content: "\E07C";
+}
+
+.soc-youtube:before {
+	content: "\E07D";
+}
+
+.soc-zootool:before {
+	content: "\E07E";
+}
+
+.soc-zynga:before {
+	content: "\E07F";
+}

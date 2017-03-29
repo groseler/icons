@@ -34,6 +34,12 @@
       "prefix": "bri"
     },
     {
+      "title": "Social",
+      "name": "social",
+      "src": "/Ressources/icons/social/",
+      "prefix": "soc"
+    },
+    {
       "title": "Flag.io",
       "name": "flagio",
       "src": "/Users/psoares/Google Drive/Work/Viewsy/Flag-io/Icons/flagio",
