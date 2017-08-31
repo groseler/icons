@@ -4,6 +4,18 @@
   },
   "sets": [
     {
+      "title": "Arrows",
+      "name": "arrows",
+      "src": "/Ressources/icons/arrows/",
+      "prefix": "arr"
+    },
+    {
+      "title": "Calibro",
+      "name": "calibro",
+      "src": "/Users/psoares/WIP/Calibro/6 - icons/svg/",
+      "prefix": "cai"
+    },
+    {
       "title": "Eventob",
       "name": "eventob",
       "src": "/Users/psoares/WIP/eventob/2016/Icons/SVG/=ALL=/",
@@ -12,7 +24,7 @@
     {
       "title": "PSoares",
       "name": "psoares",
-      "src": "/Users/psoares/Google Drive/Work/=PSOARES=/Icons",
+      "src": "/Users/psoares/Work/=PSOARES=/Icons",
       "prefix": "psi"
     },
     {
@@ -24,7 +36,7 @@
     {
       "title": "Cake",
       "name": "cake",
-      "src": "/Users/psoares/Google Drive/Work/Viewsy/cake/icons",
+      "src": "/Users/psoares/Work/Viewsy/cake/icons",
       "prefix": "cai"
     },
     {
@@ -42,7 +54,7 @@
     {
       "title": "Flag.io",
       "name": "flagio",
-      "src": "/Users/psoares/Google Drive/Work/Viewsy/Flag-io/Icons/flagio",
+      "src": "/Users/psoares/Work/Viewsy/Flag-io/Icons/flagio",
       "prefix": "fli"
     }
   ]

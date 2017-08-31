@@ -696,138 +696,142 @@ i.fli {
 	content: "\E0A8";
 }
 
-.fli-star:before {
+.fli-star-filled:before {
 	content: "\E0A9";
 }
 
-.fli-stats:before {
+.fli-star:before {
 	content: "\E0AA";
 }
 
-.fli-sun:before {
+.fli-stats:before {
 	content: "\E0AB";
 }
 
-.fli-tablet:before {
+.fli-sun:before {
 	content: "\E0AC";
 }
 
-.fli-target:before {
+.fli-tablet:before {
 	content: "\E0AD";
 }
 
-.fli-telephone:before {
+.fli-target:before {
 	content: "\E0AE";
 }
 
-.fli-tick:before {
+.fli-telephone:before {
 	content: "\E0AF";
 }
 
-.fli-tie:before {
+.fli-tick:before {
 	content: "\E0B0";
 }
 
-.fli-times:before {
+.fli-tie:before {
 	content: "\E0B1";
 }
 
-.fli-trash:before {
+.fli-times:before {
 	content: "\E0B2";
 }
 
-.fli-truck:before {
+.fli-trash:before {
 	content: "\E0B3";
 }
 
-.fli-umbrella:before {
+.fli-truck:before {
 	content: "\E0B4";
 }
 
-.fli-undo:before {
+.fli-umbrella:before {
 	content: "\E0B5";
 }
 
-.fli-unlink:before {
+.fli-undo:before {
 	content: "\E0B6";
 }
 
-.fli-up:before {
+.fli-unlink:before {
 	content: "\E0B7";
 }
 
-.fli-upload:before {
+.fli-up:before {
 	content: "\E0B8";
 }
 
-.fli-user-cap:before {
+.fli-upload:before {
 	content: "\E0B9";
 }
 
-.fli-user-tie:before {
+.fli-user-cap:before {
 	content: "\E0BA";
 }
 
-.fli-user:before {
+.fli-user-tie:before {
 	content: "\E0BB";
 }
 
-.fli-visa:before {
+.fli-user:before {
 	content: "\E0BC";
 }
 
-.fli-wallet:before {
+.fli-visa:before {
 	content: "\E0BD";
 }
 
-.fli-warning:before {
+.fli-wallet:before {
 	content: "\E0BE";
 }
 
-.fli-weather-cloud:before {
+.fli-warning:before {
 	content: "\E0BF";
 }
 
-.fli-weather-cloudy:before {
+.fli-weather-cloud:before {
 	content: "\E0C0";
 }
 
-.fli-weather-mix:before {
+.fli-weather-cloudy:before {
 	content: "\E0C1";
 }
 
-.fli-weather-rain:before {
+.fli-weather-mix:before {
 	content: "\E0C2";
 }
 
-.fli-weather-storm:before {
+.fli-weather-rain:before {
 	content: "\E0C3";
 }
 
-.fli-wifi-bars:before {
+.fli-weather-storm:before {
 	content: "\E0C4";
 }
 
-.fli-wifi:before {
+.fli-wifi-bars:before {
 	content: "\E0C5";
 }
 
-.fli-wine:before {
+.fli-wifi:before {
 	content: "\E0C6";
 }
 
-.fli-world:before {
+.fli-wine:before {
 	content: "\E0C7";
 }
 
-.fli-wrench:before {
+.fli-world:before {
 	content: "\E0C8";
 }
 
-.fli-zoom-in:before {
+.fli-wrench:before {
 	content: "\E0C9";
 }
 
-.fli-zoom-out:before {
+.fli-zoom-in:before {
 	content: "\E0CA";
+}
+
+.fli-zoom-out:before {
+	content: "\E0CB";
 }

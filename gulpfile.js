@@ -40,6 +40,7 @@ gulp.task('buildIcons', function(done) {
        .pipe(iconfont({
          fontName: set.name,
          normalize: true,
+         fontHeight: 1001,
          formats: ['svg', 'ttf', 'eot', 'woff']
        }))
        .pipe(gulp.dest('./fonts/' + set.name + '/'));

@@ -1,0 +1,81 @@
+@font-face {
+	font-family: "calibro";
+	src: url("../fonts/calibro/calibro.eot");
+  src: url("../fonts/calibro/calibro.eot#iefix") format("embedded-opentype"),
+       url("../fonts/calibro/calibro.ttf") format("truetype"),
+       url("../fonts/calibro/calibro.woff") format("woff"),
+       url("../fonts/calibro/calibro.svg#calibro") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+i.cai {
+	display: inline-block;
+	font-family: "calibro"!important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	vertical-align: middle;
+	margin-top: -2px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.cai-client:before {
+	content: "\E001";
+}
+
+.cai-color-catalog:before {
+	content: "\E002";
+}
+
+.cai-compass:before {
+	content: "\E003";
+}
+
+.cai-contractor:before {
+	content: "\E004";
+}
+
+.cai-contruction-tools:before {
+	content: "\E005";
+}
+
+.cai-factory:before {
+	content: "\E006";
+}
+
+.cai-goods-transport:before {
+	content: "\E007";
+}
+
+.cai-logo-tagline:before {
+	content: "\E008";
+}
+
+.cai-logo:before {
+	content: "\E009";
+}
+
+.cai-newtwork:before {
+	content: "\E00A";
+}
+
+.cai-stamp-tagline:before {
+	content: "\E00B";
+}
+
+.cai-stamp:before {
+	content: "\E00C";
+}
+
+.cai-tagline-horizontal:before {
+	content: "\E00D";
+}
+
+.cai-tagline:before {
+	content: "\E00E";
+}

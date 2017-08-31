@@ -56,42 +56,54 @@ i.psi {
 	content: "\E008";
 }
 
-.psi-left:before {
+.psi-left-list:before {
 	content: "\E009";
 }
 
-.psi-link:before {
+.psi-left:before {
 	content: "\E00A";
 }
 
-.psi-psoares:before {
+.psi-link:before {
 	content: "\E00B";
 }
 
-.psi-push-bottom:before {
+.psi-list:before {
 	content: "\E00C";
 }
 
-.psi-push-left:before {
+.psi-psoares:before {
 	content: "\E00D";
 }
 
-.psi-push-right:before {
+.psi-push-bottom:before {
 	content: "\E00E";
 }
 
-.psi-push-top:before {
+.psi-push-left:before {
 	content: "\E00F";
 }
 
-.psi-right:before {
+.psi-push-right:before {
 	content: "\E010";
 }
 
-.psi-up:before {
+.psi-push-top:before {
 	content: "\E011";
 }
 
-.psi-ux:before {
+.psi-right:before {
 	content: "\E012";
+}
+
+.psi-side-menu:before {
+	content: "\E013";
+}
+
+.psi-up:before {
+	content: "\E014";
+}
+
+.psi-ux:before {
+	content: "\E015";
 }

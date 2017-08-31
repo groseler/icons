@@ -15,7 +15,7 @@ $http.get(iconsJson)
     angular.forEach(res.data.sets, function(obj){
       vm.list.push(obj)
     })
-    vm.selected = vm.list[0];
+    vm.selected = vm.list[6];
     vm.get();
   });
 
