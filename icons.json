@@ -22,6 +22,12 @@
       "prefix": "evi"
     },
     {
+      "title": "Galp - Switch Up",
+      "name": "switchup",
+      "src": "/Users/psoares/Work/Wiz/switchup/icons/svg",
+      "prefix": "sui"
+    },
+    {
       "title": "PSoares",
       "name": "psoares",
       "src": "/Users/psoares/Work/=PSOARES=/Icons",
@@ -56,6 +62,12 @@
       "name": "flagio",
       "src": "/Users/psoares/Work/Viewsy/Flag-io/Icons/flagio",
       "prefix": "fli"
+    },
+    {
+      "title": "Frulact",
+      "name": "frulact",
+      "src": "/Users/psoares/Work/Wiz/frulact/icons/svg",
+      "prefix": "fri"
     }
   ]
 }

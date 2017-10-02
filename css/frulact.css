@@ -1,0 +1,121 @@
+@font-face {
+	font-family: "frulact";
+	src: url("../fonts/frulact/frulact.eot");
+  src: url("../fonts/frulact/frulact.eot#iefix") format("embedded-opentype"),
+       url("../fonts/frulact/frulact.ttf") format("truetype"),
+       url("../fonts/frulact/frulact.woff") format("woff"),
+       url("../fonts/frulact/frulact.svg#frulact") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+i.fri {
+	display: inline-block;
+	font-family: "frulact"!important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	vertical-align: middle;
+	margin-top: -2px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.fri-apple:before {
+	content: "\E001";
+}
+
+.fri-bulb:before {
+	content: "\E002";
+}
+
+.fri-design:before {
+	content: "\E003";
+}
+
+.fri-factory:before {
+	content: "\E004";
+}
+
+.fri-flag:before {
+	content: "\E005";
+}
+
+.fri-handshake:before {
+	content: "\E006";
+}
+
+.fri-icecream:before {
+	content: "\E007";
+}
+
+.fri-lab:before {
+	content: "\E008";
+}
+
+.fri-laptop-chat:before {
+	content: "\E009";
+}
+
+.fri-laptop-fruit:before {
+	content: "\E00A";
+}
+
+.fri-lock:before {
+	content: "\E00B";
+}
+
+.fri-magnifier-people:before {
+	content: "\E00C";
+}
+
+.fri-magnifier:before {
+	content: "\E00D";
+}
+
+.fri-medal:before {
+	content: "\E00E";
+}
+
+.fri-microscope:before {
+	content: "\E00F";
+}
+
+.fri-minus:before {
+	content: "\E010";
+}
+
+.fri-plus:before {
+	content: "\E011";
+}
+
+.fri-tick:before {
+	content: "\E012";
+}
+
+.fri-tools:before {
+	content: "\E013";
+}
+
+.fri-truck:before {
+	content: "\E014";
+}
+
+.fri-user-tie:before {
+	content: "\E015";
+}
+
+.fri-user:before {
+	content: "\E016";
+}
+
+.fri-wand:before {
+	content: "\E017";
+}
+
+.fri-world:before {
+	content: "\E018";
+}

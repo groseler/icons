@@ -1,0 +1,189 @@
+@font-face {
+	font-family: "switchup";
+	src: url("../fonts/switchup/switchup.eot");
+  src: url("../fonts/switchup/switchup.eot#iefix") format("embedded-opentype"),
+       url("../fonts/switchup/switchup.ttf") format("truetype"),
+       url("../fonts/switchup/switchup.woff") format("woff"),
+       url("../fonts/switchup/switchup.svg#switchup") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+i.sui {
+	display: inline-block;
+	font-family: "switchup"!important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	vertical-align: middle;
+	margin-top: -2px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.sui-arrow-bold-right:before {
+	content: "\E001";
+}
+
+.sui-arrow-down-bold:before {
+	content: "\E002";
+}
+
+.sui-arrow-down:before {
+	content: "\E003";
+}
+
+.sui-arrow-left-bold:before {
+	content: "\E004";
+}
+
+.sui-arrow-left:before {
+	content: "\E005";
+}
+
+.sui-arrow-right:before {
+	content: "\E006";
+}
+
+.sui-arrow-up-bold:before {
+	content: "\E007";
+}
+
+.sui-arrow-up:before {
+	content: "\E008";
+}
+
+.sui-browser:before {
+	content: "\E009";
+}
+
+.sui-bulp:before {
+	content: "\E00A";
+}
+
+.sui-calendar-skewed:before {
+	content: "\E00B";
+}
+
+.sui-calendar:before {
+	content: "\E00C";
+}
+
+.sui-camera:before {
+	content: "\E00D";
+}
+
+.sui-chat-balloon:before {
+	content: "\E00E";
+}
+
+.sui-chat:before {
+	content: "\E00F";
+}
+
+.sui-download:before {
+	content: "\E010";
+}
+
+.sui-envelope:before {
+	content: "\E011";
+}
+
+.sui-galp-shape-o-thick:before {
+	content: "\E012";
+}
+
+.sui-galp-shape-o:before {
+	content: "\E013";
+}
+
+.sui-galp-shape:before {
+	content: "\E014";
+}
+
+.sui-hashtag:before {
+	content: "\E015";
+}
+
+.sui-home-pencil:before {
+	content: "\E016";
+}
+
+.sui-home:before {
+	content: "\E017";
+}
+
+.sui-icons-33:before {
+	content: "\E018";
+}
+
+.sui-list:before {
+	content: "\E019";
+}
+
+.sui-magnifier-minus:before {
+	content: "\E01A";
+}
+
+.sui-magnifier-plus:before {
+	content: "\E01B";
+}
+
+.sui-magnifier:before {
+	content: "\E01C";
+}
+
+.sui-masks:before {
+	content: "\E01D";
+}
+
+.sui-megaphone:before {
+	content: "\E01E";
+}
+
+.sui-minus:before {
+	content: "\E01F";
+}
+
+.sui-newspaper-skewed:before {
+	content: "\E020";
+}
+
+.sui-newspaper:before {
+	content: "\E021";
+}
+
+.sui-pdf:before {
+	content: "\E022";
+}
+
+.sui-plus:before {
+	content: "\E023";
+}
+
+.sui-projector-screen:before {
+	content: "\E024";
+}
+
+.sui-social:before {
+	content: "\E025";
+}
+
+.sui-sun:before {
+	content: "\E026";
+}
+
+.sui-telephone:before {
+	content: "\E027";
+}
+
+.sui-times:before {
+	content: "\E028";
+}
+
+.sui-upload:before {
+	content: "\E029";
+}
